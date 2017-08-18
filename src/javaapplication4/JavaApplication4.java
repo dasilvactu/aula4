@@ -18,7 +18,8 @@ public class JavaApplication4 {
      */
     public static void main(String[] args) {
         JanelaBotoes janela = new JanelaBotoes();
-        janela.setSize(200,300);
+        janela.setSize(500,700);
+//        janela.setExtendedState(JFrame.MAXIMIZED_BOTH);
         janela.setLocationRelativeTo(null);
         janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         janela.setVisible(true);
